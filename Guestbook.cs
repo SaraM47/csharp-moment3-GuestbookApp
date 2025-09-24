@@ -32,7 +32,7 @@ public class Guestbook
     public void AddPosts()
     {
         Console.WriteLine("Ägare: ");
-        string owner = Console.ReadLine();
+        string? owner = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(owner))
         {
             Console.WriteLine("Uppstår ett fel: ägaren får inte vara tom!");
@@ -40,7 +40,7 @@ public class Guestbook
         }
 
         Console.WriteLine("Inlägg: ");
-        string text = Console.ReadLine();
+        string? text = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(text))
         {
             Console.WriteLine("Uppstår ett fel: inlägg får inte vara tom!");

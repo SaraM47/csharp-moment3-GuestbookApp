@@ -22,7 +22,7 @@ class Program
             Console.WriteLine("3.Ta bort inlägg");
             Console.WriteLine("4.Avslut");
 
-            string choice = Console.ReadLine();
+            string? choice = Console.ReadLine();
 
             /*
             * Used a switch statement to decide what action to take based on the choice. You can show all post that are currently in the guestbook, add a new post, remove a post and save all the posts to a file.
