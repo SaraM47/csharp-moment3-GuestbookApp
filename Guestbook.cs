@@ -10,7 +10,7 @@ public class Guestbook
     * Used a private list that holds all guestbook entries in memory. By using List<T> allows us to add and remove items easily.
     */
     private List<GuestbookEntry> entries = new List<GuestbookEntry>();
-    private string filePath = "guestbook.json"; //Path to the file where we will store the guestbook data in JSON format.
+    private string filePath = "guestbook.json"; // Path to the file where we will store the guestbook data in JSON format.
 
     // This method prints all posts in the guestbook.
     public void ShowPosts()
